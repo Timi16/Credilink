@@ -45,7 +45,9 @@ export function Navbar() {
         {/* Right */}
         <div className="hidden items-center gap-3 md:flex">
           {!connected ? (
-            <Button size="sm">Launch app</Button>
+            <Button size="sm" asChild>
+              <Link to="/verify">Launch app</Link>
+            </Button>
           ) : (
             <div className="flex items-center gap-2">
               <div className="flex items-center gap-1.5 rounded-full border border-border px-3 py-1.5">
@@ -80,7 +82,9 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Button size="sm" className="w-full">Launch app</Button>
+            <Button size="sm" className="w-full" asChild>
+              <Link to="/verify" onClick={() => setMobileOpen(false)}>Launch app</Link>
+            </Button>
           </div>
         </div>
       )}

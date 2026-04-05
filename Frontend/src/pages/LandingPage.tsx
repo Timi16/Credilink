@@ -379,7 +379,7 @@ export default function LandingPage() {
         <div className="mx-auto max-w-4xl text-center">
           <div className="mx-auto inline-flex items-center gap-2 rounded-full border border-cred-green/30 bg-cred-green-dim px-4 py-1.5">
             <span className="h-2 w-2 rounded-full bg-cred-green animate-pulse-green" />
-            <span className="text-xs font-medium text-cred-green">Now live on Monad Testnet</span>
+            <span className="text-xs font-medium text-cred-green">Private onchain identity, live now</span>
           </div>
 
           <h1 className="mt-8 text-4xl font-bold tracking-[-0.04em] text-text-primary md:text-hero" style={{ fontSize: "clamp(48px, 7vw, 80px)" }}>
@@ -392,7 +392,7 @@ export default function LandingPage() {
           </p>
 
           <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <Button size="lg" asChild><Link to="/verify">Get Verified Free</Link></Button>
+            <Button size="lg" asChild><Link to="/verify">Launch app</Link></Button>
             <Button size="lg" variant="secondary" asChild><a href="#how-it-works">See how it works ↓</a></Button>
           </div>
 
