@@ -45,7 +45,7 @@ export function Navbar() {
         {/* Right */}
         <div className="hidden items-center gap-3 md:flex">
           {!connected ? (
-            <Button size="sm">Connect Wallet</Button>
+            <Button size="sm">Launch app</Button>
           ) : (
             <div className="flex items-center gap-2">
               <div className="flex items-center gap-1.5 rounded-full border border-border px-3 py-1.5">
@@ -80,7 +80,7 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Button size="sm" className="w-full">Connect Wallet</Button>
+            <Button size="sm" className="w-full">Launch app</Button>
           </div>
         </div>
       )}
